@@ -1,0 +1,27 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <body>
+        <script src="js\request.js"></script>
+
+        <h2>Request Access to Student Personal Information</h2>
+        <hr>
+
+        <div id="requestWrapper">
+            <br>
+            <h3>Student:</h3>
+            <h3 id='requestStudent'>sample@sample.com</h3>
+            <br>
+            <h3>Title:</h3>
+            <input type="text" class="emailSubject" id="requestTitle" name="subject" maxlength="100">
+            <br>
+            <br>
+            <h3>Description:</h3>
+            <textarea class="requestDesc" id="requestDesc" name="body" size="500" rows="20"></textarea>
+            <br>
+            <br>
+            <button type="button" class="sendEmail" onclick="sendEmail()">Send Email</button>
+        </div>
+    </body>
+
+    </html>

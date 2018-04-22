@@ -1,0 +1,40 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <body>
+         <!-- https://www.w3schools.com/howto/howto_js_rangeslider.asp -->
+        <script src="js\generate_auto_letters.js"></script>
+
+        <h2>Generate Automatic Letters</h2>
+        <hr>
+            <div class="genAutoLetterOptions">
+                <div class="paramHeaders">
+                    <h3> Attendance: </h3>
+                    <input id="attendnaceCheck" type="checkbox">
+                </div>
+                <hr>
+                <br>
+                <h4>
+                    Please choose threshold for sending poor attendnace letter using the slider below. The value chosen will be 
+                    used as a baseline when deciding whether a student will be sent an letter regarding poor attendance. The threshold
+                    is calculated by taking a mean of student attendnace across all modules they are registered for.
+                </h4>
+                <br>
+                <p id="attendnaceThreshold"></p>
+                <br>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="attendnaceSlider">
+                </div>
+            </div>
+            <br>
+            <div class="genAutoLetterOptions">
+                <div class="paramHeaders">
+                    <h3> Re-Sit: </h3>
+                    <input id="resitCheck" type="checkbox">
+                </div>
+                
+            </div>
+            <br>
+            <button type="button" id="generateAutoLettersButton" onclick="generateAutoLetters()">Generate Automatic Letters</button>
+    </body>
+</html>

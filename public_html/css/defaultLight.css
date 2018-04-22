@@ -1,0 +1,241 @@
+/* ---------- GLOBAL ---------- */
+body {
+    background-color: white;
+    background-image: url(../img/background_light.png);
+    background-repeat: repeat;
+    background-size: 1520px 1520px;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* overflow-y: auto; */
+    /* font-family: "Helvetica"; */
+    font-family: "calibri";
+    color: #1e1e1e; 
+}
+div.mainWrapper {
+    height: 100%;
+    /* overflow-x: hidden; */
+    /*FIX*/
+    overflow-y: auto;
+}
+div.main {
+    /* margin: 0; */
+    box-sizing: border-box;
+    padding: 20px 20px 20px 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+div.mainSplit {
+    /* margin: 0; */
+    box-sizing: border-box;
+    display: none;
+    height: 0;
+    /* position: static; */
+    /* height: 100%; */
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: lightgray;
+}
+.gutter {
+    background-image: url(../img/split/horizontal.png);
+    cursor: ns-resize;
+    background-color: #1e1e1e;
+    border: 1px solid lightgray;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 1;
+}
+
+.gutter:hover {
+    cursor: ns-resize;
+}
+input[type=text], input[type=password], button {
+    width: 50%;
+    min-width: 350px;
+    height: 50px;
+    border: none;
+    border-bottom: 1.5px solid #1e1e1e;
+    /* padding: 10px; */
+    font-size: 14pt;
+}
+input[type=checkbox] {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+}
+input[type=checkbox]:checked {
+    background-color: green;
+
+}
+button {
+    color: white;
+    border:  none;
+    background-color: #1e1e1e;
+}
+button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+/* ---------- NAVIGATION DRAWER ---------- */
+div.navDrawer {
+    position: relative;
+    height: 100%;
+    width: 0px;
+    background-color: #1e1e1e;
+    background-image: url(../img/logo_shield_lightgrey.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+    margin-bottom: 64px;
+    padding: 10px 0 10px 0px;
+    box-shadow: 10px 0px 17px -8px #1e1e1e;
+    white-space: nowrap;
+    overflow-x: hidden;
+    left: 0;
+    color: white;
+    float: left;
+    z-index: 99;
+}
+div.navOption {
+    /* width: 195px; */
+    padding: 5px 0px 5px 18px;
+}
+div.navOption:hover {
+    cursor: hand;
+    cursor: pointer;
+    background-color: #464646;
+}
+div.navCategory, div.navHelp {
+    padding: 10px 0px 10px 10px;
+}
+div.navCategory:hover, div.navHelp:hover {
+    cursor: hand;
+    cursor: pointer;
+    background-color: #464646;
+}
+div.navHelp {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+div.userNav {
+    text-align: center;
+}
+
+/* ---------- NAVIGATION DRAWER BUTTON ---------- */
+div.navButton {
+    position: static;
+    float: left;
+    /* margin: 15.5px 0 15.5px 35px; */
+    margin: 15px;
+    padding: 15px;
+    background: #1e1e1e;
+    border-radius: 50%;
+}
+div.navButton:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+div.bar1, div.bar2, div.bar3 {
+    width: 30px;
+    height: 6px;
+    background-color: white;
+    margin: 6px;
+    transition: 0.4s;
+}
+.change div.bar1 {
+    /* -webkit-transform: rotate(-30deg) translate(0px, 5.2px);
+    transform: rotate(-30deg) translate(0px, 5.2px); */
+    -webkit-transform: rotate(-30deg) translate(0px, 9.2px);
+    transform: rotate(-30deg) translate(0px, 9.2px);
+
+    width: 20px;
+}
+.change div.bar2 {
+    opacity: 0;
+}
+.change div.bar3 {
+    /* -webkit-transform: rotate(30deg) translate(0px, -5.2px); */
+    /* transform: rotate(30deg) translate(0px, -5.2px); */
+    -webkit-transform: rotate(30deg) translate(0px, -9.2px);
+    transform: rotate(30deg) translate(0px, -9.2px);
+    width: 20px;
+}
+/* ---------- HELP DRAWER ---------- */
+div.helpDrawer {
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    height: 0;
+    width: 100%;
+    overflow-y: auto;
+    background-color: grey;
+}
+/* div.helpDrawerContent {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+    padding: 10px;
+    opacity: 1;
+    background-color: #1e1e1e;
+} */
+div.helpDrawerContent {
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   overflow-y: auto;
+}
+div.helpDrawerImg {
+    /* position: fixed;
+    opacity: 0.7; */
+}
+div.helpDrawerClose {
+    /* align-self: flex-start;
+    display: block;
+    width: 100%;
+    position: fixed;
+    text-align: center; */
+    position: relative;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+}
+#closeHelpButton {
+    width: 100%;
+}
+/* ---------- TEXT ---------- */
+h1 {
+    font-size: 24pt;
+    font-weight: 600;
+    margin: 0;
+}
+h2 {
+    font-size: 18pt;
+    font-weight: 400;
+    margin: 0;
+}
+h3 {
+    font-size: 16pt;
+    font-weight: 300;
+    margin: 0;
+}
+h4 {
+    margin: 0;
+    font-weight: 200;
+}
+p {
+    margin: 0;
+    font-size: 14pt;
+}
+hr {
+    width: 100%;
+}

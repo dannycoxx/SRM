@@ -1,0 +1,60 @@
+<DOCTYPE html>
+    <html>
+        <head>  
+            <meta charset="UTF-8">
+            <meta name="description" content="Student Relationship Management">
+            <meta name="author" content="Daniel Cox">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Student Relationship Management</title>
+
+            <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+            <link rel="stylesheet" type="text/css" href="css\defaultLight.css">
+            <link rel="stylesheet" type="text/css" href="css\webpageContent.css">
+            <link rel="stylesheet" type="text/css" href="css\alertify.css">
+            <link rel="stylesheet" type="text/css" href="css\nprogress.css">
+
+            <script src="js\jquery-3.2.1.min.js"></script>
+            <script src="js\alertify.min.js"></script>
+            <script src="js\nprogress.js"></script>
+        </head>
+
+        <body>
+            <script src="js\login.js"></script>
+            <script src="js\forgot_password.js"></script>
+            <script src="js\wrapper.js"></script>
+
+            <div class="logInInfo">
+                <img src="img/logo_grey.png" alt="university of liverpool logo" style="width:375px;height:86px;">
+                <div id="logIn">
+                    <div id="replaceWithContainer" class="logIn">
+                        <div class="logInSection">
+                            <h1>Student Relationship Management</h1>
+                        </div>
+                        <div class="logInSection">
+                            <h2>Log In</h2>
+                            <p>using your MWS account details.</p>
+                        </div>
+                        <div class="logInSection">
+                            <input type="text" id="username" name="username" placeholder="Username" maxlength="80">
+                            <p class="errorText" id=usernameError></p>
+                        </div>
+                        <div class="logInSection">
+                            <input type="password" id="password" name="password" placeholder="Password" maxlength="70">
+                            <p class="errorText" id=passwordError></p>
+                        </div>
+                        <div class="logInSection">
+                            <button type="button" class="logIn" onclick="login()">Log In</button>
+                        </div>
+                        <div class="logInSection">
+                            <p id="forgotPass" class="forgotPass" onclick="showIdEntry()">Forgot password?</p>
+                        </div>
+                        <!-- <button onclick="location.href='home.html'" type="button">BYPASS LOGIN</button> -->
+                    </div>
+                </div>
+            </div>
+        </body>
+        </style>
+    </html>
+
+
+<!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->

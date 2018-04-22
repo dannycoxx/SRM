@@ -1,0 +1,140 @@
+/* ---------- GLOBAL ---------- */
+
+body {
+    background-color: #1e1e1e;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* font-family: "Helvetica"; */
+    font-family: "calibri";
+    color: #1e1e1e;
+}
+
+input[type=text],
+input[type=password],
+button {
+    width: 40%;
+    min-width: 350px;
+    height: 40px;
+    border: 1px solid white;
+    font-size: 14pt;
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: white;
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/* ---------- NAVIGATION DRAWER ---------- */
+
+div.navDrawer {
+    position: static;
+    height: 100%;
+    width: 0px;
+    background-color: #1e1e1e;
+    transition: 0.5s;
+    margin-bottom: 64px;
+    padding: 10px 0 10px 0px;
+    box-shadow: 10px 0px 17px -8px #1e1e1e;
+    white-space: nowrap;
+    overflow-x: hidden;
+    left: 0;
+    color: white;
+    float: left
+}
+
+div.navOption {
+    width: 195px;
+    padding: 5px 0px 5px 8px;
+}
+
+div.navOption:hover {
+    cursor: hand;
+    background-color: #1e1e1e;
+}
+
+div.navCategory {
+    padding: 5px 0px 5px 0px;
+}
+
+div.navCategory:hover {
+    cursor: hand;
+    background-color: #1e1e1e;
+}
+
+div.navButton {
+    position: static;
+    float: left;
+    /* margin: 15.5px 0 15.5px 35px; */
+    margin: 15px;
+    padding: 15px;
+    background: #1e1e1e;
+    border-radius: 50%;
+}
+
+div.navButton:hover {
+    cursor: hand;
+}
+
+div.bar1,
+div.bar2,
+div.bar3 {
+    width: 30px;
+    height: 6px;
+    background-color: white;
+    margin: 6px;
+    transition: 0.4s;
+}
+
+.change div.bar1 {
+    /* -webkit-transform: rotate(-30deg) translate(0px, 5.2px);
+    transform: rotate(-30deg) translate(0px, 5.2px); */
+    -webkit-transform: rotate(-30deg) translate(0px, 9.2px);
+    transform: rotate(-30deg) translate(0px, 9.2px);
+    width: 20px;
+}
+
+.change div.bar2 {
+    opacity: 0;
+}
+
+.change div.bar3 {
+    /* -webkit-transform: rotate(30deg) translate(0px, -5.2px); */
+    /* transform: rotate(30deg) translate(0px, -5.2px); */
+    -webkit-transform: rotate(30deg) translate(0px, -9.2px);
+    transform: rotate(30deg) translate(0px, -9.2px);
+    width: 20px;
+}
+
+
+/* ---------- TEXT ---------- */
+
+h1 {
+    font-size: 34pt;
+    font-weight: 600;
+    margin: 0;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: 400;
+    margin: 0;
+}
+
+h3 {
+    font-size: 16pt;
+    margin: 0;
+}
+
+p {
+    font-size: 12pt;
+}

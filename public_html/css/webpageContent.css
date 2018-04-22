@@ -1,0 +1,305 @@
+/* ---------- LOG IN (INDEX.HTML)---------- */
+div.logInInfo {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px 30px 20px;
+}
+div.logIn {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    padding: 20px 30px 60px 30px;
+    margin: 20px 0 20px 0;
+    border: 0.5px solid lightgrey;
+}
+p.errorText {
+    color: red;
+}
+button.logIn {
+    width: 45%;
+    min-width: 350px;
+    height: 30px;
+}
+#forgotPass {
+    display: inline-block;
+}
+p.forgotPass:hover {
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+/* ---------- HOMEPAGE ---------- */
+
+div.homepageContent,
+div.homeInfo {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* padding: 80px; */
+    /* background-image: url("https://i.imgur.com/CmuPCxu.png"); */
+}
+div.homepageContent {
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+div.searchStudent {
+    padding: 50px 0 0 0;
+}
+div.searchBar {
+    display: flex;
+    align-items: center;
+}
+div.searchResults {
+    width: 80%;
+    padding: 20px 0 0 0;
+}
+tr.studentResultTable:hover {
+    cursor: hand;
+    cursor: pointer;
+    background-color: #bcbcbc;
+}
+table.studentResultTable, table.studentResultTableHead {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14pt;
+}
+td.studentResultTableHead {
+    padding: 0 0 5px 0;
+}
+tr.studentResultTableHead {
+    font-weight: bold;
+    
+    /* padding-bottom: 50px; */
+    /* border-bottom:1pt solid black; */
+}
+/* ---------- ABOUT ---------- */
+div.aboutContent {
+    /* padding: 20px 20px 20px 40px; */
+}
+/* ---------- STUDENT ---------- */
+div.headerBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* display: static; */
+    width: 100%;
+    height: 64px;
+    background-color: grey;
+}
+div.studentInformation {
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.studentInfoInner {
+    margin: 20px ;
+}
+div.img {
+    display: flex;
+    flex-direction: column;
+}
+button.headButton {
+    height: 64px;
+    /* width: 200px; */
+    background-color: transparent;
+}
+table.timetable, th.timetable, td.timetable  {
+    border: 0.5px solid black;
+}
+table.timetable {
+    border-collapse: collapse;
+}
+td.timetable {
+    padding: 5px;
+}
+
+/* table.studentInfoTable {
+    display: table-header-group;
+} */
+div.actionButtonContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+button.actionButton {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #1e1e1e; /* Green background */
+    border: none; /* Green border */
+    color: white; /* White text */
+    padding: 10px 15px; /* Some padding */
+    height: auto;
+    min-width: 0px;
+    cursor: pointer; /* Pointer/hand icon */
+
+}
+/* ---------- STUDENT EMAILS ---------- */
+div.studentEmailWrapper {
+    overflow-y: auto;
+    padding: 5px;
+    height: 400px;
+    width: 100%;
+    /* border: 0.5px solid black; */
+}
+div.studentEmail {
+    background-color: white;
+    border: 0.5px solid black;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    min-width: 400px;
+}
+h3.emailSubject {
+    display: inline;
+}
+/* ---------- REQUEST ---------- */
+div.request {
+    background-color: white;
+    border: 0.5px solid black;
+    padding: 15px;
+    margin: 15px 0 15px 0;
+}
+button.requestConfirmButton {
+    overflow: hidden;
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:50px;
+    background-color:#1e1e1e;
+    color:#FFF;
+    text-align:center;
+    box-shadow: 2px 2px 3px
+}
+h3.requestTitle {
+    display: inline;
+}
+
+/* ---------- MANAGE AUTO COMM ---------- */
+button.editCommButton {
+    min-width: 150px;
+    width: 50%;
+    height: 25px;
+}
+/* ---------- EMAIL ---------- */
+input[type=text].emailSubject {
+    height: 40px;
+}
+textarea.emailBody, input[type=text].emailSubject {
+    width: 80%;
+    padding: 3px 10px 3px 5px;
+    border: 1px solid black;
+    font-size: 14pt;
+    font-family: "calibri";
+}
+/* ---------- UPLOAD SPREADSHEET ---------- */
+button.uploadSpreadsheet {
+    width: 280px;
+    height: 30px;
+    min-width: 0;
+    font-size: 14pt;
+}
+#spreadsheetFile {
+    width: 50%;
+}
+#uploadSpreadsheetInput {
+    padding-top: 30px;
+}
+#uploadSpreadsheetInput {
+    padding-top: 30px;
+}
+table.tableStriped {
+    /* font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; */
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.tableStriped td, table.tableStriped th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table.tableStriped tr:nth-child(even){background-color: #f2f2f2;}
+
+table.tableStriped tr:hover {background-color: #ddd;}
+
+table.tableStriped th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1e1e1e;
+    color: white;
+}
+table.tableStripedRow0 {
+    font-weight: bold;
+}
+/* ---------- ADD MEETING NOTE ---------- */
+#meetingNoteContent {
+    /* resize: none; */
+    height: 50%;
+    width: 100%;
+}
+/* ---------- GENERATE AUTO LETTERS ---------- */
+div.genAutoLetterOptions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #1e1e1e;
+    padding: 20px;
+}
+div.paramHeaders {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #1e1e1e;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #1e1e1e;
+    cursor: pointer;
+}
+

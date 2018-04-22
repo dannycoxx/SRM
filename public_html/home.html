@@ -1,0 +1,78 @@
+<DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Student Relationship Management">
+		<meta name="author" content="Daniel Cox">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Student Relationship Management</title>
+	
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+		<link rel="stylesheet" type="text/css" href="css\webpageContent.css">
+		<link rel="stylesheet" type="text/css" href="css\defaultLight.css">
+		<link rel="stylesheet" type="text/css" href="css\alertify.css">
+		<link rel="stylesheet" type="text/css" href="css\nprogress.css">
+
+		<!-- <link rel="alternate stylesheet" type="text/css" href="css\defaultDark.css"> -->
+		<!-- Scripts here will be available for every web page -->
+		<script src="js\jquery-3.2.1.min.js"></script>
+		<script src="js\wrapper.js"></script>
+		<script src="js\student.js"></script>		
+		<script src="js\help.js"></script>
+		<script src="js\split.js"></script>
+		<script src="js\alertify.min.js"></script>
+		<script src="js\nprogress.js"></script>
+
+
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div id="helpDrawer" class="helpDrawer">
+				<div id="helpDrawerContent" class="helpDrawerContent">
+				</div>
+			</div>
+			<div id="navDrawer" class="navDrawer">
+				<div class="userNav">
+					<img src="img/user_icon.png" alt="user icon" style="width:120px;height:120px;">
+					<h3 id="mwsUsername">MWS username</h3>
+					<h4 id="loginType">Login Type</h4>
+				</div>
+				<hr>
+				<div class="navCategory" onclick="loadContent('about')"> 
+				    <h3>About</h3> 
+				</div>
+				<div class="navHelp" onclick="getHelp()">
+					<h3>Help</h3>
+					<img src="img/help_button.png" alt="help icon" style="width:27px;height:27px;">
+				</div>
+				<hr>
+				<div class="navCategory" onclick="loadContent('homepage')"><h3>Home</h3></div>
+				<div class="navCategory" onclick="loadContent('email')"><h3>Create Email</h3></div>
+				<div id="dynamicDivContent"></div>
+			
+				<div class="options">
+				    <div class="navCategory"> <h3>Options</h3></div>
+					<div class="navOption" onclick="loadContent('change_password')"> <h4>Change Password</h4> </div>
+					<div class="navOption" onclick="loadExternal('https://github.com/dannycoxx/Student-Relationship-Management')"> 
+						<h4>View Code in GitHub</h4> </div>
+				</div>
+				<div class="navCategory" onclick="logOut()"><h3>Log Out</h3></div>
+			</div>
+			<div class="navButton" onclick="toggleNav(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+			</div>
+			<div id="mainWrapper" class="mainWrapper">
+				<div id="main" class="main">
+			</div>		
+			<div id="mainSplit" class="mainSplit">
+				<div id="mainSplitButton" class="mainSplitButton"></div>
+				<div id="mainSplitContent" class="mainSplitContent"></div>
+			</div>
+			
+		</div>
+  </body>
+</html>

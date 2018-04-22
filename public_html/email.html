@@ -1,0 +1,27 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <body>
+        <script src="js\email.js"></script>
+        
+        <br>
+        <h2>Create Email</h2>
+        <hr>
+
+        <div id="emailWrapper">
+            <h3>Recipient(s) - Multiple recipients are separated by commas:</h3>
+            <input type="text" class="emailSubject" id="emailRecipients" name="recipient" oninput="checkRecipients()">
+            <br>
+            <br>
+            <h3>Subject:</h3>
+            <input type="text" class="emailSubject" id="emailSubject" name="subject" size="70">
+            <br> 
+            <br>
+            <h3>Body:</h3>
+            <textarea class="emailBody" id="emailBody" name="body" size="5000" rows="20"></textarea>
+            <br>
+            <br>
+            <button type="button" class="sendEmail" onclick="sendEmail()">Send Email</button>
+        </div>
+    </body>
+</html>
