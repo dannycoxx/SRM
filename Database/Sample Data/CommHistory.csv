@@ -1,0 +1,12 @@
+commHistId ,recipient,sender,subject,body,read,confidential,dateTime
+1,d.jones2@student.liverpool.ac.uk,m.harris@liverpool.ac.uk,Lecture Feedback,Hello there \n\nI think your lectures are great.\n\nThanks.,0,0,2014-03-19 23:59:59
+2,d.jones2@student.liverpool.ac.uk,o.smith@student.liverpool.ac.uk,Lecture Week 13,Hey \n\nI think your lectures are great.\n\nThanks.,0,1,2014-08-19 11:31:12
+3,o.smith@student.liverpool.ac.uk,m.harris@liverpool.ac.uk,Feedback,Hello there \n\nI think your lectures are great.\n\nCheers.,1,1,2014-08-19 11:31:13
+4,o.smith@student.liverpool.ac.uk,b.mixton@liverpool.ac.uk,RE: Assignment,The assignment was done very well,1,0,2017-08-01 11:31:00
+5,m.harris@liverpool.ac.uk,f.thomas@liverpool.ac.uk,Class test Feedback,27.658% was gained,1,1,2017-08-01 13:31:00
+6,o.smith@student.liverpool.ac.uk,b.mixton@liverpool.ac.uk,,www.google.co.uk,1,0,2017-08-01 11:39:00
+7,s.jones3@student.liverpool.ac.uk,j.argyle@liverpool.ac.uk,Email test,,0,0,2014-08-19 11:31:17
+8,b.mixton@liverpool.ac.uk,j.argyle@liverpool.ac.uk,Lecture 12 cancelled,,1,0,2014-08-19 11:31:18
+9,d.jones2@student.liverpool.ac.uk,csoffice@liverpool.ac.uk,Poor Engagement with Studies,"I have noticed that you have missed quite a few sessions in the last two weeks, if there is any other reason that you cannot make them, you will need to come and complete another absence form for us to be able to excuse you from the sessions as there is quite a few. ",1,0,2017-11-27 18:15:00
+10,o.smith@student.liverpool.ac.uk,csoffice@liverpool.ac.uk,Poor Engagement with Studies,"I have noticed that you have missed quite a few sessions in the last two weeks, if there is any other reason that you cannot make them, you will need to come and complete another absence form for us to be able to excuse you from the sessions as there is quite a few. ",0,0,2017-11-28 18:15:00
+11,s.jones3@student.liverpool.ac.uk,csoffice@liverpool.ac.uk,Re-Sit of Failed modules,The Board of Examiners has determined that you have not met the requirements for progression into your nect year of study. In order to be able to progress into your next year of study you are required to resit <b>all</b> assessments listed below.,0,1,2017-11-29 18:15:00

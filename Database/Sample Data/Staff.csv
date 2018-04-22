@@ -1,0 +1,6 @@
+staffNo ,forename,surname,mwsUser,csdUser,mwsPassword,csdPassword,email,termAddress,phone,userType
+1,Martin,Harris,sgmharris,s1mh,a,b,m.harris@liverpool.ac.uk,"15,Hockley Court,Marston Moretaine,Bedford,,Central Bedfordshire,England,MK43 0GD,United Kingdom",078451324751,L
+2,Brian,Mixton,sgbmixton,s1bm3,b,b,b.mixton@liverpool.ac.uk,"6,Fron Hyfryd,Dyffryn Ardudwy,Dyffryn Ardudwy,,Gwynedd,Wales,LL44 2DH,United Kingdom",078451324751,L
+3,Jenny,Argyle,sgjargyle1,s1ja1,c,b,j.argyle@liverpool.ac.uk,"41,Dumbarton Road,London,London,,Greater London,England,SW2 5LX,United Kingdom",078451324751,L
+4,Irene,Bickerstaffe,sgibicker,s2ib,d,b,i.bickerstaffee@liverpool.ac.uk,"102,Leeds Road,Methley,Leeds,,West Yorkshire,England,LS26 9EP,United Kingdom",078451324751,OA
+5,Hilton,Silver,sghsilver,s3hs,e,b,h.silver@liverpool.ac.uk,"3,The Terrace,Harrowbarrow,Callington,,Cornwall,England,PL17 8JP,United Kingdom",078451324751,SA

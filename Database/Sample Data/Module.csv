@@ -1,0 +1,9 @@
+moduleCode,title,coordinator,academicYear,studyLevel,semester,active,replacement,credit
+COMP201,Database Development,m.harris@liverpool.ac.uk,2,2,1,1,,7.5
+COMP205,Internet Principles,m.harris@liverpool.ac.uk,2,2,1,1,,7.5
+COMP219,C++ Development,b.mixton@liverpool.ac.uk,2,2,2,1,,15
+COMP101,Foundations of Programming,z.chindu@liverpool.ac.uk,1,1,2,1,,15
+COMP110,Professional Skills in Computing,b.maddison@liverpool.ac.uk,1,1,1,0,COMP119,15
+COMP119,Algorithmic Foundations,j.argyle@liverpool.ac.uk,1,1,2,1,,7.5
+COMP305,Biocomputation,b.mixton@liverpool.ac.uk,3,3,2,1,,7.5
+COMP304,Knowledge Representation and Reasoning,j.argyle@liverpool.ac.uk,3,3,2,1,,15
